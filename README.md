@@ -77,7 +77,35 @@ with open("data.txt", "r") as f:
   ```
 - Complete the functions in lab5a.py according to the given instructions.
 - Run the script from command line.
+---
 
+### lab5b.py - Writing Data to Files
+**Objective:** Practice reading data from a text file in Python.  
+When opening a file for writing, use the `'w'` mode in the `open()` function.  
+- Any existing content in the file is deleted immediately when the file is opened.  
+- If the file does not exist, it will be created automatically.  
+- To write multiple lines, use `\n` to add newlines.
+
+
+**Instructions:**
+- Add the following code to `lab5b.py` to create and write to a file:
+```python
+f = open('fruits.txt', 'w')
+f.write('1. Apples are crunchy.\n2. Oranges are sweet, sour and juicy.\n3. Strawberries are sweet.\n4. Which fruit do you like?')
+f.close()
+print("File fruits.txt has been created")
+```
+- Note that the \n is the part of the string to add the new line character in the file. The write() method will write the contents you provide it, if you do not add \n, everything will be written as a single line.
+- Run the script from the terminal using the command: `python ./lab5b.py`
+- Run the ls command to confirm that the file `fruits.txt` has been created.
+- Add a print statement to indicate you are reading the file:
+  ```Python
+  print("Reading the file fruits.txt ...")
+```
+- Write a while loop to read and print each line from fruits.txt using readline().
+  - Hint: readline() returns an empty string when the end of the file is reached.
+- Run the script again to see the output.
+---
 
 ## Lab 5 Sign-Off
 - Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
