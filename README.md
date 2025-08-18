@@ -65,7 +65,6 @@ with open("data.txt", "r") as f:
 ### lab5a.py - Reading data from files
 **Objective:** Practice reading data from a text file in Python.  
 
-
 **Instructions:**
 - Create a new file called `data2.txt` in the same directory as your script, and paste the following text into it:  
   ```text
@@ -116,7 +115,12 @@ Reading the file fruits.txt ...
 4. Which fruit do you like?
 ```
 ---
+### lab5c.py - Reading data from files
+**Objective:** Practice reading data from a text file in Python.  
 
+**Instructions:**
+
+---
 ## Lab 5 Sign-Off
 - Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
 - The PDF must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username.
