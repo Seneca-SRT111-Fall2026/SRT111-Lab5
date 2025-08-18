@@ -125,17 +125,18 @@ with open("rhyme.txt", "w") as dataFile:
     dataFile.write("I made myself a snowball\nAs perfect as could be.\nI thought I'd keep it as a pet\nAnd let it sleep with me.")
 ```
 - Run the script using the command: `python ./lab5c.py`
-- The file rhyme.txt should now exist with the text content.
+- Verify with `ls` command that the file `rhyme.txt` now exists with the text content.
 - Add code to open `rhyme.txt` in read mode ('r') before processing it.
 - Read and process the file line by line:
-  - Use a while loop and the readline() method.
+  - Use a while loop and the `readline()` method.
   - For each line:
-    - Remove leading and trailing whitespace using strip().
-    - Remove the period at the end of the line using strip('.').
-    - Split the line into words using split().
-    - Count the number of words using len().
-    - Print the line along with the word count in the format:
+    - Remove leading and trailing whitespace using `strip()`.
+    - Remove the period at the end of the line using `strip('.')`.
+    - Split the line into words using `split()`.
+    - Count the number of words using `len()`.
+    - Print the line along with the word count in the format: <line text> --- <number of words> words
 - Close the file after processing all lines to release system resources.
+  
 **EXpected Output**
 ```yaml
  I made myself a snowball --- 5 words
