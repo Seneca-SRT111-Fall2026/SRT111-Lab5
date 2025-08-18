@@ -1,10 +1,18 @@
 # Lab 5
 In this lab, you will create ten simple Python scripts. All scripts must be written in GitHub Codespaces.
-So far, you have created Python scripts that take input either through the input() function or from command-line arguments using the sys.argv list. However, programs often need to work with external data stored in files. Being able to read data from a file and save processed results back to a file is a crucial programming skill.
+So far, you have created Python scripts that take input either through the input() function or from command-line arguments using the `sys.argv` list. However, programs often need to work with external data stored in files. Being able to read data from a file and save processed results back to a file is a crucial programming skill. In this investigation, you will learn how to:
+- Open a text file.
+- Read its contents in different ways.
+- Process the data.
+- Write results back to a file.
 
 # Lab Objectives
-- To be able to read and write text files.
-- To be able to process data from the file using string methods.
+- Understand the importance of file handling in programming and real-world applications.
+- Open and close files in Python using the open() and close() functions.
+- Read file contents using different methods: read(), readline(), and readlines().
+- Write data to a file using different file modes ('w', 'a').
+- Explain the differences between reading the entire file, reading line by line, and reading into a list.
+- Apply file operations to solve simple tasks, such as processing text data, logging results, or saving program output.
   
 # Submission Instructions
 For each task:
@@ -18,6 +26,36 @@ For each task:
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
+## INVESTIGATION 1: WORKING WITH FILES
+File operations are very common in programming. For example, they are used for logging output or errors, storing configuration data, and handling temporary files. You will now explore some of the most useful file functions in Python.
+You can use the following functions while working with files in python :
+
+Here are some commonly used file functions in Python:
+
+- **`open()`** – Opens a file in a specified mode (e.g., read `'r'`, write `'w'`, append `'a'`).  
+  Returns a file object.  
+  ```python
+  f = open("data.txt", "r")
+  ```
+
+- **`read()`** – Reads the entire file as a single string.
+
+```Python
+content = f.read()
+```
+
+- **`readlines()`** – Reads all lines into a list, where each element is one line.
+
+```Python
+f.readlines()
+```
+
+
+- **`cloase()`** – Closes the file and releases system resources.
+
+```Python
+f.close()
+```
 
 
 ## Lab 5 Sign-Off
