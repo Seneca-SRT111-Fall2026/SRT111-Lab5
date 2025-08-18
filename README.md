@@ -198,11 +198,14 @@ calculateSum(a,b)    1001001001001000
 - The **output** should look like this:
 ```Python
 # Dictionary after reading files
-{'Avery': 88, 'Jordan': 95, 'Riley': 82, 'Taylor': 91}
+# Dictionary after reading files
+{  'Avery': 88, 'Jordan': 95, 'Riley': 82, 'Taylor': 91, 'Sasha': 77,
+   'Amir': 85, 'Priya': 90, 'Kai': 93, 'Lina': 80, 'Diego': 87
+}
 
-# Optional analysis
+# analysis
 Highest grade: Jordan with 95
-Average grade: 89.0
+Average grade: 86.8
 ```
 
 
