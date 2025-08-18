@@ -63,31 +63,20 @@ with open("data.txt", "r") as f:
 ```
 
 ### lab5a.py - Reading data from files
-Look at the example below.
-```Python
-with open("data.txt") as dataFile:
-  data = dataFile.read()
-  print(data)
-Output :
-Line 1
-Line 2
-Line 3
-```
+**Objective:** Practice reading data from a text file in Python.  
 
-The variable `dataFile` above is a file object. We can access file contents through this file object while the file is open. Here we used the method `read()`, which returns the contents of the file as a single string. So, in this case the string returned by `read()` method would be “Line 1 \nLine 2\nLine 3”.
-Text files can be thought of as lists of strings, each string representing a single line in the file. We can go through the `list` using a `for loop`.
 
-- Create a new file called data2.txt  and paste the following text in this file:
-  ```Python
+**Instructions:**
+- Create a new file called `data2.txt` in the same directory as your script, and paste the following text into it:  
+  ```text
   Hello World, Welcome to File Handling!	
   Line 2
   Line 3
   Line 4
   Line 5
   ```
-- Complete the functions from lab5a.py according to given instructions.
-- Run the script from command line using the command: python ./lab5a.py
-- Take clear screenshots of the script and output. Make sure there are no empty lines in the script.
+- Complete the functions in lab5a.py according to the given instructions.
+- Run the script from command line.
 
 
 ## Lab 5 Sign-Off
