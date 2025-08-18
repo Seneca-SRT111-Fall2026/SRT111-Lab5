@@ -115,7 +115,7 @@ Reading the file fruits.txt ...
 4. Which fruit do you like?
 ```
 ---
-### lab5c.py - Reading data from files
+### lab5c.py - Reading data from file and process it
 **Objective:** Practice reading a file line by line, processing each line, and counting the number of words per line.  
 
 **Instructions:**
@@ -144,11 +144,37 @@ with open("rhyme.txt", "w") as dataFile:
  I thought I'd keep it as a pet --- 8 words
  And let it sleep with me --- 6 words
 ```
-
-      
- 
-
 ---
+
+### lab5c.py - Reading data from multiple files and process it
+**Objective:** Practice reading and processing lines from two files simultaneously, cleaning the data, and writing formatted output to a new file.  
+
+In this activity, you will read data from two files simultaneously and process it line by line.  
+**Files provided:**  
+- `pythonStatements.txt` — contains Python statements with spaces and comments.  
+- `machineCode.txt` — contains corresponding 16-digit binary machine code for each Python statement.
+
+**Instructions:**
+- Ensure that both files (`pythonStatements.txt` and `machineCode.txt`) are in the **same directory** as `lab5d.py`.
+- In the file `lab5d.py`, add code to open both files for reading, and create a new file `output.txt` for writing.
+- Use a loop to process the lines:
+   - Read a line from `pythonStatements.txt` and the corresponding line from `machineCode.txt`.  
+   - Remove leading and trailing whitespace from the Python line using `strip()`.  
+   - Remove comments from the Python line (anything after `#`).  
+   - Write the cleaned Python statement **followed by a tab (`\t`) and the corresponding machine code** to `output.txt`.
+- Close all files after processing.
+- Run the script from the terminal using the command: `python ./lab5d.py`
+- The output in output.txt should look like this:
+``` go
+print("Hello World")    0000000000010100
+x = x + 1    1100110011001100
+for i in range(1,n):    1010101010101010
+calculateSum(a,b)    1001001001001000
+```
+
+
+
+
 ## Lab 5 Sign-Off
 - Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
 - The PDF must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username.
