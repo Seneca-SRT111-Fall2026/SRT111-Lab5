@@ -150,6 +150,8 @@ with open("rhyme.txt", "w") as dataFile:
 **Files provided:**  
 - `pythonStatements.txt` — contains Python statements with spaces and comments.  
 - `machineCode.txt` — contains corresponding 16-digit binary machine code for each Python statement.
+The file `pythonStatements.txt` contains four lines and each line contains a line of code form python language. There are some spaces and the comments explaining the line of code.
+The file `machineCode.txt` contains four lines of 16 digit binary code. Let's suppose that this binary code is the machine language representation of each python statement in the `pythonStatements.txt` file. The lines in both files correspond to each other, this implies that the Line 1 in `machineCode.txt` is the machine code for line 1 in `pythonStatements.txt`. In the file lab5d.py write script to perform the following tasks.
 
 **Instructions:**
 - Ensure that both files (`pythonStatements.txt` and `machineCode.txt`) are in the **same directory** as `lab5d.py`.
