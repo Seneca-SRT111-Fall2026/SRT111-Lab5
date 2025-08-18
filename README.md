@@ -134,7 +134,7 @@ with open("rhyme.txt", "w") as dataFile:
     - Remove the period at the end of the line using `strip('.')`.
     - Split the line into words using `split()`.
     - Count the number of words using `len()`.
-    - Print the line along with the word count in the format: <line text> --- <number of words> words
+    - Print the line along with the word count in the format: `<line text> --- <number of words> words`
 - Close the file after processing all lines to release system resources.
   
 **EXpected Output**
