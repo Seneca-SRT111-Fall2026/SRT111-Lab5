@@ -142,7 +142,6 @@ with open("rhyme.txt", "w") as dataFile:
  I thought I'd keep it as a pet --- 8 words
  And let it sleep with me --- 6 words
 ```
----
 
 ## INVESTIGATION 2: ADVANCED FILE OPERATIONS & DATA STRUCTURES
 
