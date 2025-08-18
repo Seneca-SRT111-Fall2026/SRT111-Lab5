@@ -105,8 +105,9 @@ print("File fruits.txt has been created")
 - Open the file for reading, read it line by line using a while loop and `readline()` then close the file:
   - Hint: readline() returns an empty string when the end of the file is reached.
 - Run the script again to see the output.
+  
 **EXpected Output**
-```text 
+```yaml 
 File fruits.txt has been created
 Reading the file fruits.txt ...
 1. Apples are crunchy.
