@@ -1,6 +1,6 @@
 # Lab 5
 In this lab, you will create ten simple Python scripts. All scripts must be written in GitHub Codespaces.<br>
-So far, you have created Python scripts that take input either through the input() function or from command-line arguments using the `sys.argv` list. However, programs often need to work with external data stored in files. Being able to read data from a file and save processed results back to a file is a crucial programming skill. In this investigation, you will learn how to:
+So far, you have created Python scripts that take input either through the input() function or from command-line arguments using the `sys.argv` list. However, programs often need to work with external data stored in files. Being able to read data from a file and save processed results back to a file is a crucial programming skill. In this lab, you will learn how to:
 - Open a text file.
 - Read its contents in different ways.
 - Process the data.
