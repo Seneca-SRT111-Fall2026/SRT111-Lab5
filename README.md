@@ -22,7 +22,7 @@ For each task:
    - Your **code** in the editor.  
    - The **terminal output**, including your **username** visible in the terminal.  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Lab4a**, **Lab4b**, **Lab4c**, etc.  
+   - Example: **Lab5a**, **Lab5b**, **Lab5c**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
@@ -213,11 +213,6 @@ Average grade: 89.0
     - lab5c.py
     - lab5d.py
     - lab5e.py
-    - lab5f.py
-    - lab5g.py
-    - lab5h.py
-    - lab5i.py
-    - lab5j.py
       
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
