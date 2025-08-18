@@ -104,8 +104,7 @@ print("File fruits.txt has been created")
 - Open the file for reading, read it line by line using a while loop and `readline()` then close the file:
   - Hint: readline() returns an empty string when the end of the file is reached.
 - Run the script again to see the output.
-  
-**EXpected Output**
+- The **output** should look like this:
 ```yaml 
 File fruits.txt has been created
 Reading the file fruits.txt ...
@@ -136,8 +135,7 @@ with open("rhyme.txt", "w") as dataFile:
     - Count the number of words using `len()`.
     - Print the line along with the word count in the format: `<line text> --- <number of words> words`
 - Close the file after processing all lines to release system resources.
-  
-**EXpected Output**
+- The **output** should look like this:
 ```yaml
  I made myself a snowball --- 5 words
  As perfect as could be --- 5 words
