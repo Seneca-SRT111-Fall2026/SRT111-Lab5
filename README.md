@@ -208,7 +208,6 @@ Highest grade: Jordan with 95
 Average grade: 86.8
 ```
 
-
 ## Lab 5 Sign-Off
 - Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
 - The PDF must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username.
@@ -217,7 +216,6 @@ Average grade: 86.8
     - lab5c.py
     - lab5d.py
     - lab5e.py
-      
 - Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
 - Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
 
