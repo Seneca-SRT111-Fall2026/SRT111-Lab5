@@ -95,11 +95,11 @@ f.write('1. Apples are crunchy.\n2. Oranges are sweet, sour and juicy.\n3. Straw
 f.close()
 print("File fruits.txt has been created")
 ```
-- Note that the \n is the part of the string to add the new line character in the file. The write() method will write the contents you provide it, if you do not add \n, everything will be written as a single line.
+- Note that the `\n` is the part of the string to add the new line character in the file. The `write()` method will write the contents you provide it, if you do not add \n, everything will be written as a single line.
 - Run the script from the terminal using the command: `python ./lab5b.py`
-- Run the ls command to confirm that the file `fruits.txt` has been created.
+- Run the `ls` command to confirm that the file `fruits.txt` has been created.
 - Add a print statement to indicate you are reading the file:
-  ```Python
+```Python
   print("Reading the file fruits.txt ...")
 ```
 - Write a while loop to read and print each line from fruits.txt using readline().
