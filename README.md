@@ -144,10 +144,9 @@ with open("rhyme.txt", "w") as dataFile:
 ```
 ---
 
-### lab5c.py - Reading data from multiple files and process it
+### lab5d.py - Reading data from multiple files and process it
 **Objective:** Practice reading and processing lines from two files simultaneously, cleaning the data, and writing formatted output to a new file.  
 
-In this activity, you will read data from two files simultaneously and process it line by line.  
 **Files provided:**  
 - `pythonStatements.txt` — contains Python statements with spaces and comments.  
 - `machineCode.txt` — contains corresponding 16-digit binary machine code for each Python statement.
