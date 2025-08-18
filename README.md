@@ -26,7 +26,7 @@ For each task:
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
-## INVESTIGATION 1: WORKING WITH FILES
+## INVESTIGATION 1: BASIC FILE OPERATIONS
 File operations are very common in programming. For example, they are used for logging output or errors, storing configuration data, and handling temporary files. You will now explore some of the most useful file functions in Python.
 You can use the following functions while working with files in python :
 
@@ -143,6 +143,8 @@ with open("rhyme.txt", "w") as dataFile:
  And let it sleep with me --- 6 words
 ```
 ---
+
+## INVESTIGATION 2: ADVANCED FILE OPERATIONS & DATA STRUCTURES
 
 ### lab5d.py - Reading data from multiple files and process it
 **Objective:** Practice reading and processing lines from two files simultaneously, cleaning the data, and writing formatted output to a new file.  
