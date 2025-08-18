@@ -170,8 +170,39 @@ x = x + 1    1100110011001100
 for i in range(1,n):    1010101010101010
 calculateSum(a,b)    1001001001001000
 ```
+---
+### lab5e.py – Storing File Data in a Dictionary
+**Objective:** Practice reading data from files and storing it in a Python dictionary for easy access and analysis.
 
+**Files Provided**
+- `students.txt` — contains student names, one per line.  
+- `grades.txt` — contains corresponding grades for each student, one per line (same order as `students.txt`).  
 
+**Instructions**
+- Ensure both files are in the **same directory** as `lab5e.py`.
+- Open `students.txt` and `grades.txt` for reading.
+- Create an **empty dictionary** to store the data:  
+   - The **key** will be the student name.  
+   - The **value** will be the student’s grade.
+- Use a loop to read lines from both files simultaneously:  
+   - Remove leading/trailing whitespace from each line using `strip()`.  
+   - Add each student and grade to the dictionary.
+- After storing all data, **print the dictionary** to verify its contents.
+- Perform simple analysis:  
+   - Find the **student with the highest grade**.  
+   - Calculate the **average grade**.  
+   - Print the results.
+- Close all files after processing.
+- Run the script and verify the output.
+- The **output** should look like this:
+```Python
+# Dictionary after reading files
+{'Avery': 88, 'Jordan': 95, 'Riley': 82, 'Taylor': 91}
+
+# Optional analysis
+Highest grade: Jordan with 95
+Average grade: 89.0
+```
 
 
 ## Lab 5 Sign-Off
