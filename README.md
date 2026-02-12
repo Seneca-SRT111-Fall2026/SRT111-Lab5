@@ -66,19 +66,21 @@ with open("data.txt", "r") as f:
     content = f.read()
 ```
 
-### Task 1 - Reading data from files
-**Objective:** Practice reading data from a text file in Python.  
+### Task 1 - Reading Data from Files
+
+**Objective:** Practice reading data from a text file in Python.
 
 **Instructions:**
-- Create a new file called `data2.txt` in the same directory as your script, and paste the following text into it:  
+
+- Create a new file called `data2.txt` in the same directory as your script and paste the following text into it:
   ```text
-  Line 1: Hello World, 
-  Line 2: Welcome to File Handling!	
+  Line 1: Hello World,
+  Line 2: Welcome to File Handling!
   Line 3: This is week 8.
   Line 4: We are progressing well!
   Line 5: Spring is arriving soon!
   ```
-- Complete the functions in task1.py according to the given instructions.
+- Complete the functions in `task1.py` according to the given instructions
 - Run the script from command line.
 ---
 
