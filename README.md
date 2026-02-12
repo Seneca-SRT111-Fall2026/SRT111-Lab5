@@ -34,7 +34,7 @@ For each task:
 
 ## INVESTIGATION 1: BASIC FILE OPERATIONS
 File operations are very common in programming. For example, they are used for logging output or errors, storing configuration data, and handling temporary files. You will now explore some of the most useful file functions in Python.
-You can use the following functions while working with files in python :
+You can use the following functions while working with files in python:
 
 Here are some commonly used file functions in Python:
 
@@ -52,18 +52,18 @@ content = f.read()
 
 - **`readlines()`** – Reads all lines into a list, where each element is one line.
 
-```Python
+```python
 f.readlines()
 ```
 
 
-- **`cloase()`** – Closes the file and releases system resources.
+- **`close()`** – Closes the file and releases system resources.
 
-```Python
+```python
 f.close()
 ```
 **Note:** It is recommended to use the with statement, which automatically closes the file after use:
-```Python
+```python
 with open("data.txt", "r") as f:
     content = f.read()
 ```
