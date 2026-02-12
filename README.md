@@ -22,7 +22,7 @@ For each task:
    - Your **code** in the editor.  
    - The **terminal output**, including your **username** visible in the terminal.  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   - Example: **Lab5a**, **Lab5b**, **Lab5c**, etc.  
+   -  Example: **Task 1**, **Task 2**, **Task 3**, etc.  
 5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
 6. **Submit the PDF file** as your final lab submission on Blackbaord.
 
@@ -62,7 +62,7 @@ with open("data.txt", "r") as f:
     content = f.read()
 ```
 
-### lab5a.py - Reading data from files
+### Task 1 - Reading data from files
 **Objective:** Practice reading data from a text file in Python.  
 
 **Instructions:**
@@ -74,7 +74,7 @@ with open("data.txt", "r") as f:
   Line 4
   Line 5
   ```
-- Complete the functions in lab5a.py according to the given instructions.
+- Complete the functions in task1.py according to the given instructions.
 - Run the script from command line.
 ---
 
