@@ -10,13 +10,14 @@ So far, you have created Python scripts that take input using the `input()` func
 - Write results back to a file
 
 # Lab Objectives
-- Understand the importance of file handling in programming and real-world applications.
-- Open and close files in Python using the open() and close() functions.
-- Read file contents using different methods: read(), readline(), and readlines().
-- Write data to a file using different file modes ('w', 'a').
-- Explain the differences between reading the entire file, reading line by line, and reading into a list.
-- Apply file operations to solve simple tasks, such as processing text data, logging results, or saving program output.
-  
+
+- Understand the importance of file handling in programming and real-world applications  
+- Open and close files in Python using the `open()` and `close()` functions  
+- Read file contents using different methods: `read()`, `readline()`, and `readlines()`  
+- Write data to a file using different file modes (`'w'`, `'a'`)  
+- Explain the differences between reading an entire file, reading line by line, and reading into a list  
+- Apply file operations to solve simple tasks such as processing text data, logging results, or saving program output
+
 # Submission Instructions
 For each task:
 1. **Write the script** in Codespaces.  
