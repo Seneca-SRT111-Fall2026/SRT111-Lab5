@@ -115,16 +115,17 @@ Reading the file fruits.txt ...
 4. Which fruit do you like?
 ```
 ---
-### lab5c.py - Reading data from file and process it
+### Task 3 - Reading data from file and process it
 **Objective:** Practice reading a file line by line, processing each line, and counting the number of words per line.  
 
 **Instructions:**
-- Add the following code to `lab5c.py` to create a text file with a children's rhyme:
+- Create a file named `task3.py` and add your name and date in the comment section.
+- Add the following code to `task3.py` to create a text file with a children's rhyme:
 ```python
 with open("rhyme.txt", "w") as dataFile:
     dataFile.write("I made myself a snowball\nAs perfect as could be.\nI thought I'd keep it as a pet\nAnd let it sleep with me.")
 ```
-- Run the script using the command: `python ./lab5c.py`
+- Run the script using the command: `python ./task3.py`
 - Verify with `ls` command that the file `rhyme.txt` now exists with the text content.
 - Add code to open `rhyme.txt` in read mode ('r') before processing it.
 - Read and process the file line by line:
@@ -146,7 +147,7 @@ with open("rhyme.txt", "w") as dataFile:
 
 ## INVESTIGATION 2: ADVANCED FILE OPERATIONS & DATA STRUCTURES
 
-### lab5d.py - Reading data from multiple files and process it
+### Task 4 - Reading data from multiple files and process it
 **Objective:** Practice reading and processing lines from two files simultaneously, cleaning the data, and writing formatted output to a new file.  
 
 **Files provided:**  
@@ -156,15 +157,16 @@ The file `pythonStatements.txt` contains four lines and each line contains a lin
 The file `machineCode.txt` contains four lines of 16 digit binary code. Let's suppose that this binary code is the machine language representation of each python statement in the `pythonStatements.txt` file. The lines in both files correspond to each other, this implies that the Line 1 in `machineCode.txt` is the machine code for line 1 in `pythonStatements.txt`. In the file lab5d.py write script to perform the following tasks.
 
 **Instructions:**
-- Ensure that both files (`pythonStatements.txt` and `machineCode.txt`) are in the **same directory** as `lab5d.py`.
-- In the file `lab5d.py`, add code to open both files for reading, and create a new file `output.txt` for writing.
+- Create a file named `task4.py` and add your name and date in the comment section.
+- Ensure that both files (`pythonStatements.txt` and `machineCode.txt`) are in the **same directory** as `task4.py`.
+- In the file `task4.py`, add code to open both files for reading, and create a new file `output.txt` for writing.
 - Use a loop to process the lines:
    - Read a line from `pythonStatements.txt` and the corresponding line from `machineCode.txt`.  
    - Remove leading and trailing whitespace from the Python line using `strip()`.  
    - Remove comments from the Python line (anything after `#`).  
    - Write the cleaned Python statement **followed by a tab (`\t`) and the corresponding machine code** to `output.txt`.
 - Close all files after processing.
-- Run the script from the terminal using the command: `python ./lab5d.py`
+- Run the script from the terminal using the command: `python ./task4.py`
 - The output in output.txt should look like this:
 ``` go
 print("Hello World")    0000000000010100
@@ -173,7 +175,7 @@ for i in range(1,n):    1010101010101010
 calculateSum(a,b)    1001001001001000
 ```
 ---
-### lab5e.py – Storing File Data in a Dictionary
+### Task 5 – Storing File Data in a Dictionary
 **Objective:** Practice reading data from files and storing it in a Python dictionary for easy access and analysis.
 
 **Files Provided**
@@ -181,7 +183,8 @@ calculateSum(a,b)    1001001001001000
 - `grades.txt` — contains corresponding grades for each student, one per line (same order as `students.txt`).  
 
 **Instructions**
-- Ensure both files are in the **same directory** as `lab5e.py`.
+- Create a file named `task5.py` and add your name and date in the comment section.
+- Ensure both files are in the **same directory** as `task5.py`.
 - Open `students.txt` and `grades.txt` for reading.
 - Create an **empty dictionary** to store the data:  
    - The **key** will be the student name.  
@@ -210,13 +213,18 @@ Average grade: 86.8
 ```
 
 ## Lab 5 Sign-Off
-- Submit a PDF on Blackboard, named using your Seneca username (e.g., **yoursenecausername.pdf**).
-- The PDF must include screenshots of the following scripts and their terminal output, clearly showing your GitHub username.
-    - lab5a.py
-    - lab5b.py
-    - lab5c.py
-    - lab5d.py
-    - lab5e.py
-- Ensure the code and output are clearly readable. Screenshots should be high-resolution (minimum 800x600) and not blurry.
-- Blurry or unreadable submissions will be returned for redo. Resubmissions will only be graded as **Satisfactory** with a grade of 0, provided the work is satisfactory.
+- Submit **one PDF file** on Blackboard named using your Seneca username  
+  *(example: `yoursenecausername.pdf`)*
+- The PDF must include **screenshots of each script and its terminal output**, clearly showing your **GitHub username**:
+  - `task1.py`
+  - `task2.py`
+  - `task3.py`
+  - `task4.py`
+  - `task5.py`
+- Ensure all screenshots are **clear and readable**.
+- Screenshots must show the **complete code**, including the **comment header** at the top with your **name and date**.
+- If a script does not fit in one screenshot, take **multiple screenshots** and place them **in the correct order**.
+- Screenshots must be **high-resolution (minimum 800 × 600)** and **not blurry**.
+- **Unreadable, incomplete, or incorrectly submitted files will be returned for resubmission.  
+  Resubmitted work can only receive a grade of _Satisfactory (0%)_ if the work meets the requirements.**
 
