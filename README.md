@@ -1,6 +1,6 @@
 # Lab 5
 In this lab, you will create five Python scripts. All scripts must be written in GitHub Codespaces.<br>
-So far, you have created Python scripts that take input either through the input() function or from command-line arguments using the `sys.argv` list. However, programs often need to work with external data stored in files. Being able to read data from a file and save processed results back to a file is a crucial programming skill. In this lab, you will learn how to:
+So far, you have created Python scripts that take input through the input() function. However, programs often need to work with external data stored in files. Being able to read data from a file and save processed results back to a file is a crucial programming skill. In this lab, you will learn how to:
 - Open a text file.
 - Read its contents in different ways.
 - Process the data.
@@ -68,17 +68,17 @@ with open("data.txt", "r") as f:
 **Instructions:**
 - Create a new file called `data2.txt` in the same directory as your script, and paste the following text into it:  
   ```text
-  Hello World, Welcome to File Handling!	
-  Line 2
-  Line 3
-  Line 4
-  Line 5
+  Line 1: Hello World, 
+  Line 2: Welcome to File Handling!	
+  Line 3: This is week 8.
+  Line 4: We are progressing well!
+  Line 5: Spring is arriving soon!
   ```
 - Complete the functions in task1.py according to the given instructions.
 - Run the script from command line.
 ---
 
-### lab5b.py - Writing Data to Files
+### Task 2 - Writing Data to Files
 **Objective:** Practice reading data from a text file in Python.  
 When opening a file for writing, use the `'w'` mode in the `open()` function.  
 - Any existing content in the file is deleted immediately when the file is opened.  
@@ -87,7 +87,8 @@ When opening a file for writing, use the `'w'` mode in the `open()` function.
 
 
 **Instructions:**
-- Add the following code to `lab5b.py` to create and write to a file:
+- Create a file named `task2.py` and add your name and date in the comment section.
+- Add the following code to `task2.py` to create and write to a file:
 ```python
 f = open('fruits.txt', 'w')
 f.write('1. Apples are crunchy.\n2. Oranges are sweet, sour and juicy.\n3. Strawberries are sweet.\n4. Which fruit do you like?')
@@ -95,13 +96,13 @@ f.close()
 print("File fruits.txt has been created")
 ```
 - Note that we include `\n` in the string to add new lines in the file; otherwise all text appears on one line.
-- Run the script from the terminal using the command: `python ./lab5b.py`
+- Run the script from the terminal using the command: `python ./task2.py`
 - Run the `ls` command to confirm that the file `fruits.txt` has been created.
-- Add a print statement to indicate you are reading the file:
+- Next, in the same file after the above code, add a print statement to indicate you are reading the file:
 ```Python
   print("Reading the file fruits.txt ...")
 ```
-- Open the file for reading, read it line by line using a while loop and `readline()` then close the file:
+- Add python statements to open the file `fruits.txt` for reading, and read it line by line using a while loop and `readline()` then close the file:
   - Hint: readline() returns an empty string when the end of the file is reached.
 - Run the script again to see the output.
 - The **output** should look like this:
