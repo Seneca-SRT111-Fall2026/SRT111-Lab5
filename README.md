@@ -34,16 +34,14 @@ For each task:
 
 ## INVESTIGATION 1: BASIC FILE OPERATIONS
 File operations are very common in programming. For example, they are used for logging output or errors, storing configuration data, and handling temporary files. You will now explore some of the most useful file functions in Python.
-You can use the following functions while working with files in python:
 
 Here are some commonly used file functions in Python:
 
 - **`open()`** – Opens a file in a specified mode (e.g., read `'r'`, write `'w'`, append `'a'`).  
-  Returns a file object.  
+  Returns a file object.
   ```python
   f = open("data.txt", "r")
   ```
-
 - **`read()`** – Reads the entire file as a single string.
 
 ```Python
