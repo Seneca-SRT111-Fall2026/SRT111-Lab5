@@ -85,15 +85,19 @@ with open("data.txt", "r") as f:
 ---
 
 ### Task 2 - Writing Data to Files
-**Objective:** Practice reading data from a text file in Python.  
-When opening a file for writing, use the `'w'` mode in the `open()` function.  
-- Any existing content in the file is deleted immediately when the file is opened.  
-- If the file does not exist, it will be created automatically.  
-- To write multiple lines, use `\n` to add newlines.
+
+**Objective:** Practice writing data to a text file in Python.
+
+When opening a file for writing, use the `'w'` mode in the `open()` function.
+
+- Any existing content in the file is deleted immediately when the file is opened  
+- If the file does not exist, it will be created automatically  
+- To write multiple lines, use `\n` to add newlines
 
 
 **Instructions:**
-- Create a file named `task2.py` and add your name and date in the comment section.
+
+- Create a file named `task2.py` and add your name and date in the comment section  
 - Add the following code to `task2.py` to create and write to a file:
 ```python
 f = open('fruits.txt', 'w')
@@ -101,14 +105,14 @@ f.write('1. Apples are crunchy.\n2. Oranges are sweet, sour and juicy.\n3. Straw
 f.close()
 print("File fruits.txt has been created")
 ```
-- Note that we include `\n` in the string to add new lines in the file; otherwise all text appears on one line.
+- Note that we include `\n` in the string to add new lines to the file; otherwise, all text will appear on one line
 - Run the script from the terminal using the command: `python ./task2.py`
 - Run the `ls` command to confirm that the file `fruits.txt` has been created.
-- Next, in the same file after the above code, add a print statement to indicate you are reading the file:
-```Python
+- Next, in the same fil,e after the above code, add a print statement to indicate you are reading the file:
+```python
   print("Reading the file fruits.txt ...")
 ```
-- Add python statements to open the file `fruits.txt` for reading, and read it line by line using a while loop and `readline()` then close the file:
+- Add python statements to open the file `fruits.txt` for reading, and read it line by line using a while loop and `readline()`, then close the file:
   - Hint: readline() returns an empty string when the end of the file is reached.
 - Run the script again to see the output.
 - The **output** should look like this:
