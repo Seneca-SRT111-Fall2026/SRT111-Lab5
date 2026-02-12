@@ -25,7 +25,7 @@ For each task:
 1. **Write the script** in Codespaces  
 2. **Run the script** from the **terminal**  
 3. **Take a screenshot** that clearly shows:
-   - Your **code** in the editor  
+   - Your **code** in the editor along with your name and date at the top comment header  
    - The **terminal output**, including your **username** visible in the terminal  
 4. **Insert the screenshot** into a Word document under the heading that matches the task name:
    - Example: **Task 1**, **Task 2**, **Task 3**, etc.  
