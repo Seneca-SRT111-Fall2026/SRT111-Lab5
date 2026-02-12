@@ -19,16 +19,18 @@ So far, you have created Python scripts that take input using the `input()` func
 - Apply file operations to solve simple tasks such as processing text data, logging results, or saving program output
 
 # Submission Instructions
+
 For each task:
-1. **Write the script** in Codespaces.  
-2. **Run the script** from the **terminal**.  
-3. **Take a screenshot** that clearly shows:  
-   - Your **code** in the editor.  
-   - The **terminal output**, including your **username** visible in the terminal.  
-4. **Insert the screenshot** into a Word document under the heading that matches the task name:  
-   -  Example: **Task 1**, **Task 2**, **Task 3**, etc.  
-5. After completing all tasks, **convert the Word document to PDF**.  Name the PDF file using your **yoursenecausername.pdf**
-6. **Submit the PDF file** as your final lab submission on Blackbaord.
+
+1. **Write the script** in Codespaces  
+2. **Run the script** from the **terminal**  
+3. **Take a screenshot** that clearly shows:
+   - Your **code** in the editor  
+   - The **terminal output**, including your **username** visible in the terminal  
+4. **Insert the screenshot** into a Word document under the heading that matches the task name:
+   - Example: **Task 1**, **Task 2**, **Task 3**, etc.  
+5. After completing all tasks, **convert the Word document to PDF**. Name the file using your Seneca username (e.g., `yoursenecausername.pdf`)  
+6. **Submit the PDF file** as your final lab submission on Blackboard
 
 ## INVESTIGATION 1: BASIC FILE OPERATIONS
 File operations are very common in programming. For example, they are used for logging output or errors, storing configuration data, and handling temporary files. You will now explore some of the most useful file functions in Python.
