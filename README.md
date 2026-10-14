@@ -81,7 +81,8 @@ Complete all assigned in-class tasks during your scheduled lab.
 - The professor may ask you to explain portions of your code.
 - No PDF submission is required for Part A unless otherwise instructed.
 
-<details>
+<details markdown="1">
+
 <summary><b>Quick Reference: Opening, Reading and Closing Files</b></summary>
 
 <br>
@@ -200,7 +201,8 @@ Last line: Line 5: Spring is arriving soon!
 
 > **Note:** The blank line after the `read()` section is expected. The last line of the file ends with `\n`, and `print()` adds another newline of its own. Notice the `\n` at the end of every item in the `readlines()` list. That is why you `strip()` lines before printing them.
 
-<details>
+<details markdown="1">
+
 <summary><b>Quick Reference: Writing and Appending to Files</b></summary>
 
 <br>
@@ -287,7 +289,8 @@ Reading the file fruits.txt ...
 
 > **Think about it:** Run your script a second time. Why does `fruits.txt` still have only five lines, and not two copies of line 5? Now temporarily change `'w'` to `'a'` in `write_fruits()` and run it twice more. What happens to the file? Be ready to explain why. Put `'w'` back before you demonstrate your work.
 
-<details>
+<details markdown="1">
+
 <summary><b>Quick Reference: Cleaning and Splitting Lines</b></summary>
 
 <br>
@@ -375,7 +378,8 @@ Complete the following tasks independently after the scheduled lab using VS Code
   - The terminal output, including your username visible in the terminal.
 - Insert the screenshots into a Word document under a heading that matches the task name (e.g., Task 4, Task 5). You will export this Word document to PDF and submit it on Blackboard.
 
-<details>
+<details markdown="1">
+
 <summary><b>Quick Reference: Reading Two Files Together</b></summary>
 
 <br>
@@ -464,7 +468,8 @@ calculateSum(a,b)	1001001001001000
 
 > **Note:** If `output.txt` is all on one line, you forgot to write `\n` after each machine code.
 
-<details>
+<details markdown="1">
+
 <summary><b>Quick Reference: Dictionaries from Files</b></summary>
 
 <br>
