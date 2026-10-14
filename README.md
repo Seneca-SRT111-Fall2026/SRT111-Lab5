@@ -315,7 +315,7 @@ Reading the file fruits.txt ...
 **Instructions:**
 
 - Create a file named `task3.py` and add the required comment header.
-- Write a function named `create_rhyme` that takes a file name, `filename`, as a parameter and creates the file using the following code:
+- Write a function named `create_rhyme` that takes a file name as a parameter and creates the file using the following code:
 
   ```python
   with open(filename, "w") as dataFile:
