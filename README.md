@@ -129,9 +129,9 @@ with open("data.txt", "r") as f:
   ```text
   Line 1: Hello World,
   Line 2: Welcome to File Handling!
-  Line 3: This is week 8.
+  Line 3: This is week 7.
   Line 4: We are progressing well!
-  Line 5: Spring is arriving soon!
+  Line 5: Winter is arriving soon!
   ```
 
 - Create a file named `task1.py` and add the required comment header.
