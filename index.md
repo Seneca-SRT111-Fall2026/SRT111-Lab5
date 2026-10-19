@@ -260,7 +260,7 @@ f.close()
   - Takes two parameters: `filename` and `text`.
   - Opens the file in append mode (`'a'`), writes `text` to it, and closes the file.
 - Write a function named `print_file_lines` that:
-  - Takes a file name, `filename`, as a parameter.
+  - Takes `filename`, as a parameter.
   - Opens the file for reading.
   - Uses a `while` loop and `readline()` to read and print the file one line at a time. Use `strip()` so there are no blank lines between the lines.
     - Hint: `readline()` returns an empty string when the end of the file is reached.
