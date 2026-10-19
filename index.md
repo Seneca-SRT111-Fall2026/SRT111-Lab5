@@ -188,15 +188,15 @@ Line 1: Hello World,
 Line 2: Welcome to File Handling!
 Line 3: This is week 8.
 Line 4: We are progressing well!
-Line 5: Spring is arriving soon!
+Line 5: Winter is arriving soon!
 
 === readline() ===
 Line 1: Hello World,
 Line 2: Welcome to File Handling!
 === readlines() ===
-['Line 1: Hello World,\n', 'Line 2: Welcome to File Handling!\n', 'Line 3: This is week 8.\n', 'Line 4: We are progressing well!\n', 'Line 5: Spring is arriving soon!\n']
+['Line 1: Hello World,\n', 'Line 2: Welcome to File Handling!\n', 'Line 3: This is week 8.\n', 'Line 4: We are progressing well!\n', 'Line 5: Winter is arriving soon!\n']
 Number of lines: 5
-Last line: Line 5: Spring is arriving soon!
+Last line: Line 5: Winter is arriving soon!
 ```
 
 > **Note:** The blank line after the `read()` section is expected. The last line of the file ends with `\n`, and `print()` adds another newline of its own. Notice the `\n` at the end of every item in the `readlines()` list. That is why you `strip()` lines before printing them.
