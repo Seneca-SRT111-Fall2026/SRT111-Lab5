@@ -1,13 +1,10 @@
-# SRT111-Lab5
+<h1 align="center">SRT111 Lab 5 - Fall 2026</h1>
 
-<div align="center">
-
-**SRT111 Lab 5 - Fall 2026** <br>
-Prepared by: Tiayyba Riaz<br>
-Total Marks: 10<br>
-Percentage Towards Final Grade: 2%
-
-</div>
+<p align="center">
+<b>Prepared by:</b> Tiayyba Riaz<br>
+<b>Total Marks:</b> 10<br>
+<b>Percentage Towards Final Grade:</b> 2%
+</p>
 
 So far, your programs have taken their input from the keyboard with `input()` and shown their results on the screen with `print()`. When the program ends, all of that data is gone. Real programs usually keep their data in **files**: logs, configuration settings, saved results, records. In this lab, you will learn how to open a text file, read its contents in different ways, process the data line by line, combine data from more than one file, store it in a dictionary, and write the results back to a file. You will continue to use functions and a `main()` function to organize your programs, as practised in Lab 4.
 
