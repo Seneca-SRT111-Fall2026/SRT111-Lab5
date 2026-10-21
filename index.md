@@ -72,8 +72,6 @@ Complete all assigned in-class tasks during your scheduled lab.
 | Task 3 - Processing a File Line by Line | 1.0 |
 | **Total** | **3** |
 
-> Marks are awarded only when the required functions and methods are used as instructed. Correct output alone is not enough.
-
 - This part can be completed in Jupyter Lab or VS Code. You have a choice. I recommend using Jupyter Lab.
   - If you are using Jupyter Lab, then please create a single notebook file called `Lab5.ipynb` and complete each task in a unique cell. Create the data files in the same folder as the notebook.
   - If you are using VS Code, then just follow the instructions for each task and create `.py` files.
