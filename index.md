@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**SRT111 Lab 5 - Fall 2026**<br>
+**SRT111 Lab 5 - Fall 2026** <br>
 Prepared by: Tiayyba Riaz<br>
 Total Marks: 10<br>
 Percentage Towards Final Grade: 2%
