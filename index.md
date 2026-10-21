@@ -151,7 +151,7 @@ with open("data.txt", "r") as f:
 
   def read_into_list(filename):
       # 1. Use a 'with' statement to open the file (it closes automatically)
-      # 2. Read all lines into a list using readlines()
+      # 2. Read all lines into a list using readline()
       # 3. Print the list itself
       # 4. Print how many lines the file has using len()
       # 5. Print ONLY the last line (hint: index -1), stripped
